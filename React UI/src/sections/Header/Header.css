@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Hanken+Grotesk&family=Inclusive+Sans&family=Noto+Sans+JP:wght@500&family=Poppins&family=Rubik&display=swap');
+
+body{
+    margin: 0px; 
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif;
+}
+header{
+    height: 430px;
+    background: url(../../assets/images/header.jpg) top right/cover no-repeat ;
+    border: 1px solid #000000;
+}
+.text-center{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    line-height: 40px;
+    color: white;
+}
+.master{
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}

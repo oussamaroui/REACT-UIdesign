@@ -1,0 +1,41 @@
+.container{
+    width: 80%; height: 55px;
+    background-color: #d6d6d6; color: #606060;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px; padding: 0px 20px;
+    display: flex; justify-content: space-between; align-items: center;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; align-items: center;
+}
+
+ul li {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+button {
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007acc;
+}
